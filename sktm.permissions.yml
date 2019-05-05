@@ -1,0 +1,19 @@
+add sktm entities:
+  title: 'Create new SKTM entities'
+
+administer sktm entities:
+  title: 'Administer SKTM entities'
+  description: 'Allow to access the administration form to configure SKTM entities.'
+  restrict access: true
+
+delete sktm entities:
+  title: 'Delete SKTM entities'
+
+edit sktm entities:
+  title: 'Edit SKTM entities'
+
+view published sktm entities:
+  title: 'View published SKTM entities'
+
+view unpublished sktm entities:
+  title: 'View unpublished SKTM entities'

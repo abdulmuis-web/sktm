@@ -1,0 +1,14 @@
+
+# SKTM menu items definition
+entity.sktm.collection:
+  title: 'SKTM list'
+  route_name: entity.sktm.collection
+  description: 'List SKTM entities'
+  parent: system.admin_structure
+  weight: 100
+
+sktm.admin.structure.settings:
+  title: 'SKTM settings'
+  description: 'Configure SKTM entities'
+  route_name: sktm.settings
+  parent: system.admin_structure

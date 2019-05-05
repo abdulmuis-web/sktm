@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains sktm.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function sktm_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the sktm module.
+    case 'help.page.sktm':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Surat keterangan tidak mampu') . '</p>';
+      return $output;
+
+    default:
+  }
+}

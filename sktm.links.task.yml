@@ -1,0 +1,22 @@
+# SKTM routing definition
+sktm.settings_tab:
+  route_name: sktm.settings
+  title: 'Settings'
+  base_route: sktm.settings
+
+entity.sktm.canonical:
+  route_name: entity.sktm.canonical
+  base_route: entity.sktm.canonical
+  title: 'View'
+
+entity.sktm.edit_form:
+  route_name: entity.sktm.edit_form
+  base_route: entity.sktm.canonical
+  title: 'Edit'
+
+entity.sktm.delete_form:
+  route_name:  entity.sktm.delete_form
+  base_route:  entity.sktm.canonical
+  title: Delete
+  weight: 10
+

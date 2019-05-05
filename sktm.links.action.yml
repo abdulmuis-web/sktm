@@ -1,0 +1,6 @@
+entity.sktm.add_form:
+  route_name: entity.sktm.add_form
+  title: 'Add SKTM'
+  appears_on:
+    - entity.sktm.collection
+    - entity.sktm.canonical

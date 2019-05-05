@@ -1,0 +1,14 @@
+{
+  "name": "drupal/sktm",
+  "type": "drupal-module",
+  "description": "Surat keterangan tidak mampu",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/sktm",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/sktm",
+    "source": "http://cgit.drupalcode.org/sktm"
+  },
+  "require": { }
+}
