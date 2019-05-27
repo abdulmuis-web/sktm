@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Creates some default entries on this module custom table.
+ *
+ * @see hook_install()
+ *
+ * @ingroup simulasi
+ */
+use Drupal\sktm\Entity\Sktm;
+
+function sktm_install() {
+  
+  $entries = [
+	['id' => '10', 'name' => 'Tidak Mengajukan SKTM', 'score' => '0'],
+	['id' => '20', 'name' => 'Pemegang SKTM dari Kepala Desa / Kelurahan', 'score' => '35'],
+	['id' => '30', 'name' => 'Pemegang Kartu Indonesia Pintar', 'score' => '55'],
+  ];
+  
+  foreach ($entries as $entry) {
+	$entry['user_id'] = '1'; 
+    $sktm = Sktm::create($entry);
+	
+	$sktm->save();
+  }
+}
